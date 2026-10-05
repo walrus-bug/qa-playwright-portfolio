@@ -7,7 +7,7 @@ interface TestCase {
 
 const loginTest: TestCase = {
   id: "TC-001",
-  title: "User can log in with invalid credentials",
+  title: "User cannot log in with invalid credentials",
   priority: "High",
   status: "Failed",
 };

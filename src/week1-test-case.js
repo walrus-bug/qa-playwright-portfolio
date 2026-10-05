@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const loginTest = {
     id: "TC-001",
-    title: "User can log in with invalid credentials",
+    title: "User cannot log in with invalid credentials",
     priority: "High",
     status: "Failed",
 };
