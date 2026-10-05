@@ -8,4 +8,17 @@ function introduceTester(name, years) {
 }
 console.log(introduceTester(testerName, yearsInQA));
 console.log(`Learning automation: ${isLearningAutomation}`);
+const skillsToLearn = [
+    "TypeScript",
+    "Playwright",
+    "API testing",
+    "SQL",
+];
+for (const skill of skillsToLearn) {
+    console.log(`I am learning: ${skill}`);
+}
+function canApplyForAutomationRole(hasCompletedPortfolio) {
+    return hasCompletedPortfolio;
+}
+console.log(`Ready to apply: ${canApplyForAutomationRole(false)}`);
 //# sourceMappingURL=week1.js.map
